@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solidarity Innovation</title>
+    <link rel="icon" href="imagens/Solidarity.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagens/Solidarity-removebg-preview.png" alt="Logo">
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="doar.html">Doar</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="participe.html">Participe</a></li>
+                <li><a href="voluntario.html">Voluntariado</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h2 class="titulo-principal"><strong>Faça a Diferença</strong></h2>
+            <img class="imagem-exemplo" src="imagens/ajuda-voluntaria-pag.jpg" alt="Trabalho Voluntario">
+            <p class="titulo-secundario">O programa de voluntariado da Solidarity Innovation é uma iniciativa que visa envolver indivíduos dispostos a dedicar seu tempo, habilidades e paixão para causas sociais e ambientais.</p>
+        </div>
+        <div class="formulario">
+            <h1 class="titulo-formulario">Candidatura no Voluntário</h1>
+            <form onsubmit="mostrarAlerta()">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="mensagem">Por que você deseja ser voluntário na Solidarity Inovation?</label>
+                <textarea name="mensagem" id="mensagem" rows="4"></textarea>
+
+                <button class="envio" type="submit">Enviar Candidatura</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Solidarity Innovation</p>
+    </footer>
+</body>
+</html>

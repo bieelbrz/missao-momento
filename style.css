@@ -1,0 +1,300 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    background-color: #4d78a8e8;
+}
+
+header{
+    background-color: #1A366B;
+    width: 100%;
+    height: 28vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    border-bottom: 1px solid;
+} 
+
+ul li {
+    list-style-type: none;
+}
+
+a{
+    color: #f2f2f2;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    width: 15%;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    gap: 70px;
+    font-size: 23px;
+}
+
+main{
+    margin-top: 80px;
+    color: #f2f2f2;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 70px;
+}
+
+.imagem-exemplo{
+    width: 62%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 70px;
+    border: 10px solid white;
+}
+
+main>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-secundario{
+    font-size: 50px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.terceiro-titulo{
+    text-align: center;
+    margin-top: 49px;
+    font-size: 60px;
+}
+
+.topicos{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.botao,.botao-dois{
+    margin-top: 60px;
+    height: 14vh;
+    display: block;
+    width: 30%;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #1A366B;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao a,.botao-dois a{
+    color: white;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 90px;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: #161616;
+    color: #fff;
+    text-align: center;
+    padding: 20px
+}
+
+
+.historias{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.helena{
+    width: 30%;
+    margin-right: 20px;
+    border: 8px solid white;
+    margin-top: 30px;
+}
+
+.roberto{
+    width: 30%;
+    margin-right: 20px;
+    border: 8px solid white;
+    margin-top: 30px;
+}
+
+.nome-historia{
+    margin-top: 20px;
+    align-items: center;
+}
+
+.botao-doar{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    height: 15vh;
+    font-size: 40px;
+    background-color: #1A366B;
+    border-radius: 30px;
+    color: #f2f2f2;
+    transition: opacity 0.3s ease;
+}
+
+.botao-doar:hover{
+    opacity: 0.7;
+}
+
+
+
+.botao-voluntario{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    height: 15vh;
+    font-size: 40px;
+    background-color: #1A366B;
+    border-radius: 30px;
+    color: #f2f2f2;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.button {
+    border: none;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 350px; 
+    margin: 10px; 
+}
+
+.button img {
+    max-width: 100%;
+    height: auto;
+    opacity: 1;
+    max-height: 26vh;
+    transition: opacity 0.3s ease;
+}
+
+.button:hover img{
+    opacity: 1;
+}
+
+.button h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.formulario {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.titulo-formulario{
+    color: #1A366B;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    color: #1A366B;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #1A366B;
+    border-radius: 3px;
+}
+
+.envio{
+    background-color: #1A366B;
+    color: #f2f2f2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.voluntario{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+    height: 15vh;
+    font-size: 40px;
+    background-color: #1A366B;
+    border-radius: 30px;
+    color: #f2f2f2;
+    transition: background-color 0.3s ease;
+}
+
+.participar {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+    height: 15vh;
+    font-size: 40px;
+    background-color: #1A366B;
+    border-radius: 30px;
+    color: #f2f2f2;
+    transition: background-color 0.2s ease;
+}
+
+.voluntario:hover,
+.participar:hover {
+    background-color: #12264b;
+}
+
+.botao-de-troca{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+    height: 15vh;
+    font-size: 40px;
+    background-color: #1A366B;
+    border-radius: 30px;
+    color: #f2f2f2;
+    transition: 0.7s ease;
+}
+
+.botao-de-troca:hover{
+    opacity: 0.7;
+}
+
+
+
